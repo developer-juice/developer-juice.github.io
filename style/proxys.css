@@ -1,0 +1,64 @@
+
+a{
+
+  text-decoration: none;
+  color: brown;
+
+}
+/*a:hover{ background: rgba(96,106,116, .25)}
+*/
+
+.popup
+{
+  padding: 40px;
+  width:  500px;
+  height: 225px;
+border: 2px solid grey;
+border-radius: 5px;
+box-shadow: 2px 2px 30px black;
+position: fixed;
+left: 30%;
+top: 30%;
+ background:#f7f7f7;
+}
+
+.dialog{
+  position: relative;
+  top: 15px;
+  left: 30px;
+}
+
+.label-for-check{
+  display:none;
+}
+
+
+.one:checked + .label-for-check
+{
+  display: inline-block;
+  margin-left: 10px;
+
+
+  font-weight: bolder;
+}
+.art img{
+  position: absolute;
+  bottom: 55px;
+  left: 50px;
+  width: 250px;
+  height: 250px;
+  content: url("closed_door.jpg");
+}
+
+.art img:hover{
+  content: url("back_door.JPG");
+
+}
+
+
+
+
+.enterer:hover{
+  font-weight: bolder;
+  background-color: black;
+}
