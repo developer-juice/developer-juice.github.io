@@ -2,32 +2,40 @@
 <html>
 
 <head>
-
+ <meta charset="UTF-8">
   <link href="../style/proxys.css" rel="stylesheet" />
 
-<title> Access to Conner's Blog</title>
+  <title> Access to Blog</title>
 </head>
 
 <body bgcolor="grey">
+  <script src="../js/toBlog.js">
+
+  </script>
 <!-- this is the dialog box that pops up once access the page.-->
 <div class="popup">
   <h3> Warning! You are about to enter a personal Blog</h3>
   <div class="dialog">
     <p> Do you wish to continue? </p>
-    <br>
-
-        <input class="one" type="checkbox" name="continue" value="$show_data"  />
+    <br />
+      <input class="one" type="checkbox" name="continue" value="$show_data"  />
         Yes
       <label class="label-for-check" for="idinput">
-        <a class="enterer" href="blog.php"> Enter </a>
+        <button type="button" class="enterer" onClick="stealthMove()"> Enter </button>
       </label>
+      <br />
+      <h3>
+         <a class="enterer" href="../index.html"> No </a>
+      </h3>
+
+
     </div>
 
     <!-- <p>Are you going to continue?: ' . $show_data. ' </p> -->
 </div>
 
 <div class="art">
-<img class="door" />
+<img class="door" src="https://drive.google.com/uc?id=1UguOu7xq4vI5KSf57siOgiDr85tZJYLz" />
 </div>
 
 

@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+   <meta charset="UTF-8">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138941575-1"></script>
   <script>
@@ -36,10 +37,10 @@
               <a class="nav-link btn btn-light" href="#">Dashboard<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link btn btn-light" href="#">Blog</a>
+              <a class="nav-link btn btn-light" href="pages/blog_proxy.html">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link btn btn-light" href="#">Projects</a>
+              <a class="nav-link btn btn-light" href="pages/stuff.html">Projects</a>
             </li>
           </ul>
         </div>
@@ -48,19 +49,38 @@
     </header>
     <main>
 
+      <!-- ASIDE -->
+      <ul class="aside sticky-top nav flex-column float-right">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+
+      <!-- asdfsadf -->
+
       <div class="container">
         <div class="jumbotron">
-          <h1 class="display-4">Welcome</h1>
+          <h3 class="display-5">Welcome</h3>
           <hr class="my-4">
-          <p>funny of you to stumble upon this website. Well look around, you can checkout a gallery, blog, and other hidden "secrets"</p>
-          <p>I dont sell anything on here per say, but that doesnt mean ads are out of the question.</p>
+          <p>Welcome to my first website! Well, look around, you can checkout a gallery, blog, and other hidden "secrets"</p>
+          <p>I dont sell anything on here per say, but that doesnt mean ads are out of the question. <br /> More information
+          can be read in the -about- page located in the aside nav.</p>
           <a href="#" class="float-right btn btn-light">Top</a>
         </div>
       </div>
 
       <div class="container">
         <div class="jumbotron">
-          <h1 class="display-4">oh yea theres a blog</h1>
+          <h3 class="display-5">What!Who?Blog?</h3>
           <hr class="my-4">
           <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
           <a href="pages/blog_proxy.html" class="float-right btn btn-light">To the Blog!</a>
@@ -69,19 +89,20 @@
 
       <div class="container">
         <div class="jumbotron">
-          <h1 class="display-4">Project</h1>
+          <h3 class="display-5">Projects</h3>
           <hr class="my-4">
-          <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-          <a href="#" class="float-right btn btn-light">Light</a>
+          <p>Some of the work that i have made requires severs or is unable to run in the browser, so I made gifs/jpegs. <br />
+          in this page Ill talk about digital stuff I have made over the years.</p>
+          <a href="pages/stuff.html" class="float-right btn btn-light">view the works</a>
         </div>
       </div>
 
       <div class="container">
         <div class="jumbotron">
-          <h1 class="display-4">oh yea me too</h1>
+          <h3 class="display-5">about me</h3>
           <hr class="my-4">
-          <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-          <a href="#" class="float-right btn btn-light">Light</a>
+          <p>Hello, I am a friendly weeb on the interwebs. I am a web app developer and I dabble in artwork.</p>
+          <p>fun fact about the internet is that even at the moment of reading this, you have no idea that I, the author am secretly is cat, sure fooled you. </p>
         </div>
       </div>
 

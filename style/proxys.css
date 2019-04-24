@@ -47,12 +47,15 @@ top: 30%;
   left: 50px;
   width: 250px;
   height: 250px;
-  content: url("closed_door.jpg");
 }
 
-.art img:hover{
-  content: url("back_door.JPG");
-
+.art:hover{
+  content: url("https://drive.google.com/uc?id=1-ZDfLrM8qZ29DAv530NjtygLCc4ndgUx");
+  position: absolute;
+  bottom: 55px;
+  left: 50px;
+  width: 250px;
+  height: 250px;
 }
 
 
@@ -61,4 +64,7 @@ top: 30%;
 .enterer:hover{
   font-weight: bolder;
   background-color: black;
+  padding: 5px 5px 5px 5px;
+  border-radius: 25%;
+  width: 150%;
 }

@@ -1,5 +1,5 @@
 main{
-  background-image: url("https://drive.google.com/uc?id=1zCcHCrtVujNUMRMdhtzasbl80bNZdqwK");
+  background-image: url("https://drive.google.com/uc?id=1AZZFa5JQ9bqjmfldFvQtAMm0NFTzKkBp");
   background-repeat: repeat;
 }
 
@@ -9,6 +9,16 @@ main{
 
 }
 
+.jumbotron{
+  box-shadow: 3px 3px black;
+
+}
+
 .nav-item{
   margin: 0 15px 0 15px;
+}
+
+.aside {
+  border-radius:5px;
+  background-image: url("https://drive.google.com/uc?id=18clmOHuv2f03S4GybU7l332uT6uOv6ih");
 }
