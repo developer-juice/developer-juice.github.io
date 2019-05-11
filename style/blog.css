@@ -1,11 +1,35 @@
+.lil-personal-space{
+  padding: 15px;
+  margin: 30px;
+}
+
+.soft-bubble{
+
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px whitesmoke;
+}
+
 #most-recent{
-  border-radius: 25%;
-  box-shadow: 1px 1px 3px blue;
   padding: 15px 15px 15px 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #blog-posts{
-  border-radius: 25%;
-  box-shadow: 1px 1px 3px blue;
   padding: 5px 5px 5px 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.twit{
+  border: 3px solid white;
+  border-radius: 8px;
+}
+
+.twit .blog-header{
+  background-color: rgba(112, 140, 152, .7);
+}
+.twit .blog-text{
+
 }

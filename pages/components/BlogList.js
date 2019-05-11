@@ -1,10 +1,19 @@
 
 function createBlogNode(info){
   let node = document.createElement("div");
+  node.classList.add("twit")
+  node.classList.add("lil-personal-space");
+  node.classList.add("soft-bubble");
+
   let blogheader = document.createElement("h4");
   blogheader.classList.add("blog-header");
+  blogheader.classList.add("lil-personal-space");
+  blogheader.classList.add("soft-bubble");
+
   let blogtext = document.createElement("p");
-  blogtext.classList.add("blog-text")
+  blogtext.classList.add("blog-text");
+  blogtext.classList.add("lil-personal-space");
+  blogtext.classList.add("soft-bubble");
 
  blogheader.innerHTML = info.header;
  // ...
@@ -29,7 +38,7 @@ function appendList(arrayBlogItems){
      return createBlogNode(node);
   });
   document.querySelector("#most-recent").appendChild(
-    createBlogNode(FEATURED);
+    createBlogNode(FEATURED)
   );
   console.log(blogList);
 
