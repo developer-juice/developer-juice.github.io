@@ -1,0 +1,11 @@
+#most-recent{
+  border-radius: 25%;
+  box-shadow: 1px 1px 3px blue;
+  padding: 15px 15px 15px 15px;
+}
+
+#blog-posts{
+  border-radius: 25%;
+  box-shadow: 1px 1px 3px blue;
+  padding: 5px 5px 5px 5px;
+}
